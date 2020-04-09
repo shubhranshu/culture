@@ -2,7 +2,7 @@ name: Npm Publish
 
 on:
   release:
-    types: [created, published]
+    types: [published]
 
 jobs:
   build:
@@ -26,9 +26,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: npm publish
-        env:
+      env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
+        
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
