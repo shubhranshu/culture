@@ -1,10 +1,17 @@
 {
   "name": "culture",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "description": "Everything about culture",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d lib",
+    "test": "jest",
+    "clirun": "node src/index.js"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
   },
   "repository": {
     "type": "git",
@@ -19,5 +26,16 @@
   "bugs": {
     "url": "https://github.com/shubhranshu/culture/issues"
   },
-  "homepage": "https://github.com/shubhranshu/culture#readme"
+  "homepage": "https://github.com/shubhranshu/culture#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.3.0",
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.2"
+  }
 }
