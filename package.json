@@ -1,6 +1,6 @@
 {
-  "name": "culture",
-  "version": "1.0.0-alpha",
+  "name": "the-culture",
+  "version": "1.0.3-alpha",
   "description": "Everything about culture",
   "main": "src/index.js",
   "scripts": {
