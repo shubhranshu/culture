@@ -1,4 +1,4 @@
-import BooksData from '../data/books.json';
+import BooksData from '../../data/Books.json'
 
 class Books {
   constructor() {
