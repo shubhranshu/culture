@@ -1,8 +1,8 @@
-name: Node.js Package
+name: Npm Publish
 
 on:
   release:
-    types: [created]
+    types: [created, published]
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: npm test
+      # - run: npm test
 
   publish-npm:
     needs: build
