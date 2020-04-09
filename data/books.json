@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Consider Phlebas",
+    "publishDate": 1987,
+    "isbn": "1-85723-138-4"
+  },
+  {
+    "name": "The Player of Games",
+    "publishDate": 1988,
+    "isbn": "1-85723-146-5"
+  },
+  {
+    "name": "Use of Weapons",
+    "publishDate": 1990,
+    "isbn": "1-85723-135-X"
+  },
+  {
+    "name": "The State of the Art",
+    "publishDate": 1991,
+    "isbn": "0-356-19669-0"
+  },
+  {
+    "name": "Excession",
+    "publishDate": 1996,
+    "isbn": "1-85723-394-8"
+  },
+  {
+    "name": "Inversions",
+    "publishDate": 1998,
+    "isbn": "1-85723-763-3"
+  },
+  {
+    "name": "Look to Windward",
+    "publishDate": 2000,
+    "isbn": "1-85723-969-5"
+  },
+  {
+    "name": "Matter",
+    "publishDate": 2008,
+    "isbn": "1-84149-417-8"
+  },
+  {
+    "name": "Surface Detail",
+    "publishDate": 2010,
+    "isbn": "1-84149-893-9"
+  },
+  {
+    "name": "The Hydrogen Sonata",
+    "publishDate": 2012,
+    "isbn": "978-0356501505"
+  }
+]
