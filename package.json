@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "clirun": "node --experimental-modules src/index.js"
   },
   "repository": {
@@ -22,9 +22,11 @@
     "url": "https://github.com/shubhranshu/culture/issues"
   },
   "homepage": "https://github.com/shubhranshu/culture#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "chalk": "^4.0.0",
     "commander": "^5.0.0",
+    "jest": "^25.3.0",
     "nodemon": "^2.0.2"
   }
 }
